@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in VBScript related to implicit type conversion. The function `f` intends to return an integer based on the input. However, if the input is a string instead of a number (e.g., "1" instead of 1), the comparison in the `If` statement might behave unexpectedly.  The solution clarifies type handling for robustness.
